@@ -8,7 +8,7 @@ import json
 import paho.mqtt.client as mqtt
 
 # MQTT 설정
-MQTT_BROKER = 'donggukseoul.com'  
+MQTT_BROKER = 'donggukseoul.com'  # 예: 'mqtt.eclipse.org'
 MQTT_PORT = 1883
 MQTT_TOPIC = 'sensor/data'  # 원하는 주제 이름
 MQTT_CLIENT_ID = 'PythonSensorServer'
